@@ -3,7 +3,8 @@ name: Build and Publish Docker Image
 # This triggers the action whenever you push to the 'main' branch
 on:
   push:
-    branches: ['main']
+    branches: ['master']
+  workflow_dispatch:
 
 jobs:
   build-and-push:
