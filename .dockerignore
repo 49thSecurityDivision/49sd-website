@@ -1,0 +1,5 @@
+.git
+wget-log
+README.md
+Dockerfile
+.dockerignore
